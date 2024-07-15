@@ -1,0 +1,98 @@
+[
+  {
+    "power": [
+      "mpei/DGU/1/power/set_point",
+      "mpei/DGU/1/power/rated_power",
+      "mpei/DGU/1/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/1/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/1/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/1/voltage_frequency"
+    ]
+  },
+  {
+    "power": [
+      "mpei/DGU/2/power/set_point",
+      "mpei/DGU/2/power/rated_power",
+      "mpei/DGU/2/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/2/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/2/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/2/voltage_frequency"
+    ]
+  },
+  {
+    "power": [
+      "mpei/DGU/3/power/set_point",
+      "mpei/DGU/3/power/rated_power",
+      "mpei/DGU/3/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/3/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/3/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/3/voltage_frequency"
+    ]
+  },
+  {
+    "power": [
+      "mpei/DGU/4/power/set_point",
+      "mpei/DGU/4/power/rated_power",
+      "mpei/DGU/4/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/4/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/4/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/4/voltage_frequency"
+    ]
+  },
+  {
+    "power": [
+      "mpei/DGU/5/power/set_point",
+      "mpei/DGU/5/power/rated_power",
+      "mpei/DGU/5/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/5/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/5/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/5/voltage_frequency"
+    ]
+  },
+  {
+    "power": [
+      "mpei/DGU/6/power/set_point",
+      "mpei/DGU/6/power/rated_power",
+      "mpei/DGU/6/power/current_generator_power"
+    ],
+    "job_status": [
+      "mpei/DGU/6/job_status"
+    ],
+    "autorun": [
+      "mpei/DGU/6/autorun"
+    ],
+    "voltage/frequency": [
+      "mpei/DGU/6/voltage_frequency"
+    ]
+  }
+]

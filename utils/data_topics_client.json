@@ -1,0 +1,14 @@
+{
+  "N/d436391ea13a/system/0/Dc/Battery/Voltage": "mpei/Victron/PV_battery_voltage",
+  "N/d436391ea13a/system/0/Dc/Battery/Power": "mpei/Victron/PV_battery_power",
+  "N/d436391ea13a/system/0/Dc/Battery/Current": "mpei/Victron/PV_battery_current",
+  "N/d436391ea13a/system/0/Dc/Battery/Soc": "mpei/Victron/PV_soc",
+  "N/d436391ea13asystem/0/Ac/Consumption/L1/Power": "mpei/Victron/PV_ac_consumption",
+  "N/d436391ea13a/system/0/Dc/Pv/Power": "mpei/Victron/PV_power",
+  "N/d436391ea13a/system/0/Ac/Genset/L1/Power": "mpei/Victron/PV_generator",
+  "N/d436391ea13a/solarcharger/256/History/Daily/0/Yield": "mpei/Victron/Power Generated Today",
+  "N/d436391ea13a/solarcharger/256/Yield/System": "mpei/Victron/Power_Generated_Total",
+  "N/d436391ea13a/vebus/257/Ac/Out/L1/F": "mpei/Victron/Frequency_L1",
+  "N/d436391ea13a/vebus/257/Ac/Out/L2/F": "mpei/Victron/Frequency_L2",
+  "N/d436391ea13a/vebus/257/Ac/Out/L3/F": "mpei/Victron/Frequency_L3"
+}

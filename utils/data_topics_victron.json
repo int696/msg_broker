@@ -1,0 +1,15 @@
+{
+  "ac_consumption_L1_power": "N/d436391ea13a/system/0/Ac/Consumption/L1/Power",
+  "ac_consumption_L2_power": "N/d436391ea13a/system/0/Ac/Consumption/L2/Power",
+  "ac_consumption_L3_power": "N/d436391ea13a/system/0/Ac/Consumption/L3/Power",
+  "ac_out_L1_active_power": "N/d436391ea13a/vebus/257/Ac/Out/L1/P",
+  "ac_out_L2_active_power": "N/d436391ea13a/vebus/257/Ac/Out/L2/P",
+  "ac_out_L3_active_power": "N/d436391ea13a/vebus/257/Ac/Out/L3/P",
+  "ac_out_L1_current": "N/d436391ea13a/vebus/257/Ac/Out/L1/I",
+  "ac_out_L2_current": "N/d436391ea13a/vebus/257/Ac/Out/L2/I",
+  "ac_out_L3_current": "N/d436391ea13a/vebus/257/Ac/Out/L3/I",
+  "battery_current": "N/d436391ea13a/battery/259/Dc/0/Current",
+  "battery_power": "N/d436391ea13a/battery/259/Dc/0/Power",
+  "battery_SOC": "N/d436391ea13a/system/0/Dc/Battery/Soc",
+  "battery_voltage": "N/d436391ea13a/battery/259/Dc/0/Voltage"
+}
