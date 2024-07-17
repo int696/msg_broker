@@ -6,6 +6,7 @@ from utils.create_file_and_path import Util
 from Connected.connection_db import add_user
 from Request.command_operator import Command
 
+
 async def delay(victron):
     while True:
         victron.survey_victron()

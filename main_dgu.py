@@ -24,11 +24,12 @@ def init_start():
                 # diesel_callback.checking_work_status(slave=3, address=7, count=1)
                 # diesel_callback.checking_work_status(slave=3, address=19, count=1)
                 diesel_callback.command_processing_diesel(operator.get_excluded_engines())
-                diesel_callback.get_power_dgu(2)
-                diesel_callback.get_power_dgu(3)
-                diesel_callback.get_current_dgu(2)
-                diesel_callback.get_current_dgu(3)
-                operator.update_current_power(diesel_callback.get_power_current())
+                power_dgu2 = diesel_callback.get_power_dgu(2)
+                power_dgu3 = diesel_callback.get_power_dgu(3)
+                current_dgu2 = diesel_callback.get_current_dgu(2)
+                current_dgu3 = diesel_callback.get_current_dgu(3)
+                operator.update_current_power(power_dgu2 + current_dgu2, 2)
+                operator.update_current_power(power_dgu3 + current_dgu3, 3)
             else:
                 operator.update_excluded_engines(operator.get_excluded_engines(), 0)
                 diesel_callback.command_processing_diesel(operator.get_excluded_engines())
@@ -39,7 +40,7 @@ def init_start():
                 operator.update_excluded_engines(operator.get_excluded_engines(), 0)
                 operator.update_control_signal('start_stop_diesel', 0)
                 diesel_callback.command_processing_diesel(operator.get_excluded_engines())
-                operator.update_current_power(diesel_callback.get_power_current())
+
                 flag_start_stop_all = False
 
 

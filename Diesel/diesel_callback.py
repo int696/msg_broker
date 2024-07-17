@@ -38,10 +38,10 @@ class DieselCallbackBD:
         power_516 = self.diesel.command_read_holding_registers(address=516, count=3, slave=slave)
         power_517 = self.diesel.command_read_holding_registers(address=517, count=3, slave=slave)
         power_518 = self.diesel.command_read_holding_registers(address=518, count=3, slave=slave)
-        print(power_516, power_517, power_518)
+        return power_516, power_517, power_518
 
     def get_current_dgu(self, slave):
         current_513 = self.diesel.command_read_holding_registers(address=513, count=3, slave=slave)
         current_514 = self.diesel.command_read_holding_registers(address=514, count=3, slave=slave)
         current_515 = self.diesel.command_read_holding_registers(address=515, count=3, slave=slave)
-        print(current_513, current_514, current_515)
+        return current_513, current_514, current_515
