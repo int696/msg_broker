@@ -4,8 +4,6 @@ import pymysql
 from pymysql.cursors import DictCursor
 
 
-
-
 def add_user():
     # Получаем данные пользователя из функции
     config = configparser.ConfigParser()

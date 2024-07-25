@@ -24,7 +24,8 @@ class VictronCommand:
                 "battery_current": 0,
                 "battery_power": 0,
                 "battery_SOC": 0,
-                "battery_voltage": 0
+                "battery_voltage": 0,
+                "F": 0
         }
         self.mqttc = mqttc
 

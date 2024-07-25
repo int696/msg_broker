@@ -49,14 +49,15 @@ class Command:
         cursor = self.connect.cursor()
         query = (f"UPDATE ДГУ_текущее_состояние_параметров "
                  f"SET "
-                 f"P_L1_DG = %s,"
+                 f"P_L1_DG = %s, "
                  f"P_L2_DG = %s, "
                  f"P_L3_DG = %s, "
                  f"I_L1_DG = %s, "
                  f"I_L2_DG = %s, "
-                 f"I_L3_DG = %s, "
+                 f"I_L3_DG = %s "
                  f"WHERE slave = {dgu}")
-        cursor.execute(query, data)
+
+        cursor.execute(query, list(data))
         cursor.close()
 
     def get_excluded_engines(self):
@@ -114,7 +115,14 @@ class Command:
                  f"{c[9]} = %s,"
                  f"{c[10]} = %s,"
                  f"{c[11]} = %s,"
-                 f"{c[12]} = %s")
+                 f"{c[12]} = %s,"
+                 f"{c[13]} = %s")
         cursor.execute(query, params)
         cursor.close()
 
+    def get_setting(self):
+        cursor = self.connect.cursor()
+        cursor.execute("SELECT * FROM settings")
+        setting = cursor.fetchall()[0]
+        cursor.close()
+        return setting
